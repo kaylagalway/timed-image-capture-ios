@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD32DBCB1EB3CBC600711A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32DBCA1EB3CBC600711A6C /* AppDelegate.swift */; };
+		CD32DBD01EB3CBC600711A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD32DBCE1EB3CBC600711A6C /* Main.storyboard */; };
+		CD32DBD21EB3CBC600711A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD32DBD11EB3CBC600711A6C /* Assets.xcassets */; };
+		CD32DBD51EB3CBC600711A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD32DBD31EB3CBC600711A6C /* LaunchScreen.storyboard */; };
+		CD32DBE01EB3CBC600711A6C /* ImageCaptureChallenge___iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32DBDF1EB3CBC600711A6C /* ImageCaptureChallenge___iOSTests.swift */; };
+		CD32DBEB1EB3CBC600711A6C /* ImageCaptureChallenge___iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32DBEA1EB3CBC600711A6C /* ImageCaptureChallenge___iOSUITests.swift */; };
+		CD32DBF91EB3CBDA00711A6C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32DBF81EB3CBDA00711A6C /* CameraViewController.swift */; };
+		CD32DBFB1EB3E00500711A6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD32DBFA1EB3E00500711A6C /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD32DBDC1EB3CBC600711A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD32DBBF1EB3CBC600711A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD32DBC61EB3CBC600711A6C;
+			remoteInfo = "ImageCaptureChallenge - iOS";
+		};
+		CD32DBE71EB3CBC600711A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD32DBBF1EB3CBC600711A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD32DBC61EB3CBC600711A6C;
+			remoteInfo = "ImageCaptureChallenge - iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD32DBC71EB3CBC600711A6C /* ImageCaptureChallenge-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageCaptureChallenge-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD32DBCA1EB3CBC600711A6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD32DBCF1EB3CBC600711A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD32DBD11EB3CBC600711A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD32DBD41EB3CBC600711A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD32DBD61EB3CBC600711A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD32DBDB1EB3CBC600711A6C /* ImageCaptureChallenge-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageCaptureChallenge-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD32DBDF1EB3CBC600711A6C /* ImageCaptureChallenge___iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageCaptureChallenge___iOSTests.swift"; sourceTree = "<group>"; };
+		CD32DBE11EB3CBC600711A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD32DBE61EB3CBC600711A6C /* ImageCaptureChallenge-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageCaptureChallenge-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD32DBEA1EB3CBC600711A6C /* ImageCaptureChallenge___iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageCaptureChallenge___iOSUITests.swift"; sourceTree = "<group>"; };
+		CD32DBEC1EB3CBC600711A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD32DBF81EB3CBDA00711A6C /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		CD32DBFA1EB3E00500711A6C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD32DBC41EB3CBC600711A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32DBD81EB3CBC600711A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32DBE31EB3CBC600711A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD32DBBE1EB3CBC600711A6C = {
+			isa = PBXGroup;
+			children = (
+				CD32DBC91EB3CBC600711A6C /* ImageCaptureChallenge - iOS */,
+				CD32DBDE1EB3CBC600711A6C /* ImageCaptureChallenge - iOSTests */,
+				CD32DBE91EB3CBC600711A6C /* ImageCaptureChallenge - iOSUITests */,
+				CD32DBC81EB3CBC600711A6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD32DBC81EB3CBC600711A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD32DBC71EB3CBC600711A6C /* ImageCaptureChallenge-iOS.app */,
+				CD32DBDB1EB3CBC600711A6C /* ImageCaptureChallenge-iOSTests.xctest */,
+				CD32DBE61EB3CBC600711A6C /* ImageCaptureChallenge-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD32DBC91EB3CBC600711A6C /* ImageCaptureChallenge - iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD32DBFA1EB3E00500711A6C /* HomeViewController.swift */,
+				CD32DBF81EB3CBDA00711A6C /* CameraViewController.swift */,
+				CD32DBCA1EB3CBC600711A6C /* AppDelegate.swift */,
+				CD32DBCE1EB3CBC600711A6C /* Main.storyboard */,
+				CD32DBD11EB3CBC600711A6C /* Assets.xcassets */,
+				CD32DBD31EB3CBC600711A6C /* LaunchScreen.storyboard */,
+				CD32DBD61EB3CBC600711A6C /* Info.plist */,
+			);
+			path = "ImageCaptureChallenge - iOS";
+			sourceTree = "<group>";
+		};
+		CD32DBDE1EB3CBC600711A6C /* ImageCaptureChallenge - iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD32DBDF1EB3CBC600711A6C /* ImageCaptureChallenge___iOSTests.swift */,
+				CD32DBE11EB3CBC600711A6C /* Info.plist */,
+			);
+			path = "ImageCaptureChallenge - iOSTests";
+			sourceTree = "<group>";
+		};
+		CD32DBE91EB3CBC600711A6C /* ImageCaptureChallenge - iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD32DBEA1EB3CBC600711A6C /* ImageCaptureChallenge___iOSUITests.swift */,
+				CD32DBEC1EB3CBC600711A6C /* Info.plist */,
+			);
+			path = "ImageCaptureChallenge - iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD32DBC61EB3CBC600711A6C /* ImageCaptureChallenge-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD32DBEF1EB3CBC600711A6C /* Build configuration list for PBXNativeTarget "ImageCaptureChallenge-iOS" */;
+			buildPhases = (
+				CD32DBC31EB3CBC600711A6C /* Sources */,
+				CD32DBC41EB3CBC600711A6C /* Frameworks */,
+				CD32DBC51EB3CBC600711A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageCaptureChallenge-iOS";
+			productName = "ImageCaptureChallenge - iOS";
+			productReference = CD32DBC71EB3CBC600711A6C /* ImageCaptureChallenge-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD32DBDA1EB3CBC600711A6C /* ImageCaptureChallenge-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD32DBF21EB3CBC600711A6C /* Build configuration list for PBXNativeTarget "ImageCaptureChallenge-iOSTests" */;
+			buildPhases = (
+				CD32DBD71EB3CBC600711A6C /* Sources */,
+				CD32DBD81EB3CBC600711A6C /* Frameworks */,
+				CD32DBD91EB3CBC600711A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD32DBDD1EB3CBC600711A6C /* PBXTargetDependency */,
+			);
+			name = "ImageCaptureChallenge-iOSTests";
+			productName = "ImageCaptureChallenge - iOSTests";
+			productReference = CD32DBDB1EB3CBC600711A6C /* ImageCaptureChallenge-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD32DBE51EB3CBC600711A6C /* ImageCaptureChallenge-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD32DBF51EB3CBC600711A6C /* Build configuration list for PBXNativeTarget "ImageCaptureChallenge-iOSUITests" */;
+			buildPhases = (
+				CD32DBE21EB3CBC600711A6C /* Sources */,
+				CD32DBE31EB3CBC600711A6C /* Frameworks */,
+				CD32DBE41EB3CBC600711A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD32DBE81EB3CBC600711A6C /* PBXTargetDependency */,
+			);
+			name = "ImageCaptureChallenge-iOSUITests";
+			productName = "ImageCaptureChallenge - iOSUITests";
+			productReference = CD32DBE61EB3CBC600711A6C /* ImageCaptureChallenge-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD32DBBF1EB3CBC600711A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kayla Galway";
+				TargetAttributes = {
+					CD32DBC61EB3CBC600711A6C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4WHCWF2WQ4;
+						ProvisioningStyle = Automatic;
+					};
+					CD32DBDA1EB3CBC600711A6C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD32DBC61EB3CBC600711A6C;
+					};
+					CD32DBE51EB3CBC600711A6C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD32DBC61EB3CBC600711A6C;
+					};
+				};
+			};
+			buildConfigurationList = CD32DBC21EB3CBC600711A6C /* Build configuration list for PBXProject "ImageCaptureChallenge-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD32DBBE1EB3CBC600711A6C;
+			productRefGroup = CD32DBC81EB3CBC600711A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD32DBC61EB3CBC600711A6C /* ImageCaptureChallenge-iOS */,
+				CD32DBDA1EB3CBC600711A6C /* ImageCaptureChallenge-iOSTests */,
+				CD32DBE51EB3CBC600711A6C /* ImageCaptureChallenge-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD32DBC51EB3CBC600711A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD32DBD51EB3CBC600711A6C /* LaunchScreen.storyboard in Resources */,
+				CD32DBD21EB3CBC600711A6C /* Assets.xcassets in Resources */,
+				CD32DBD01EB3CBC600711A6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32DBD91EB3CBC600711A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32DBE41EB3CBC600711A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD32DBC31EB3CBC600711A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD32DBCB1EB3CBC600711A6C /* AppDelegate.swift in Sources */,
+				CD32DBF91EB3CBDA00711A6C /* CameraViewController.swift in Sources */,
+				CD32DBFB1EB3E00500711A6C /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32DBD71EB3CBC600711A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD32DBE01EB3CBC600711A6C /* ImageCaptureChallenge___iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32DBE21EB3CBC600711A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD32DBEB1EB3CBC600711A6C /* ImageCaptureChallenge___iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD32DBDD1EB3CBC600711A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD32DBC61EB3CBC600711A6C /* ImageCaptureChallenge-iOS */;
+			targetProxy = CD32DBDC1EB3CBC600711A6C /* PBXContainerItemProxy */;
+		};
+		CD32DBE81EB3CBC600711A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD32DBC61EB3CBC600711A6C /* ImageCaptureChallenge-iOS */;
+			targetProxy = CD32DBE71EB3CBC600711A6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD32DBCE1EB3CBC600711A6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD32DBCF1EB3CBC600711A6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD32DBD31EB3CBC600711A6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD32DBD41EB3CBC600711A6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD32DBED1EB3CBC600711A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD32DBEE1EB3CBC600711A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD32DBF01EB3CBC600711A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WHCWF2WQ4;
+				INFOPLIST_FILE = "ImageCaptureChallenge - iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kayla.ImageCaptureChallenge---iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD32DBF11EB3CBC600711A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WHCWF2WQ4;
+				INFOPLIST_FILE = "ImageCaptureChallenge - iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kayla.ImageCaptureChallenge---iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CD32DBF31EB3CBC600711A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ImageCaptureChallenge - iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kayla.ImageCaptureChallenge---iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageCaptureChallenge-iOS.app/ImageCaptureChallenge-iOS";
+			};
+			name = Debug;
+		};
+		CD32DBF41EB3CBC600711A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ImageCaptureChallenge - iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kayla.ImageCaptureChallenge---iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageCaptureChallenge-iOS.app/ImageCaptureChallenge-iOS";
+			};
+			name = Release;
+		};
+		CD32DBF61EB3CBC600711A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ImageCaptureChallenge - iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kayla.ImageCaptureChallenge---iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ImageCaptureChallenge - iOS";
+			};
+			name = Debug;
+		};
+		CD32DBF71EB3CBC600711A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ImageCaptureChallenge - iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kayla.ImageCaptureChallenge---iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ImageCaptureChallenge - iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD32DBC21EB3CBC600711A6C /* Build configuration list for PBXProject "ImageCaptureChallenge-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD32DBED1EB3CBC600711A6C /* Debug */,
+				CD32DBEE1EB3CBC600711A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD32DBEF1EB3CBC600711A6C /* Build configuration list for PBXNativeTarget "ImageCaptureChallenge-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD32DBF01EB3CBC600711A6C /* Debug */,
+				CD32DBF11EB3CBC600711A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD32DBF21EB3CBC600711A6C /* Build configuration list for PBXNativeTarget "ImageCaptureChallenge-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD32DBF31EB3CBC600711A6C /* Debug */,
+				CD32DBF41EB3CBC600711A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD32DBF51EB3CBC600711A6C /* Build configuration list for PBXNativeTarget "ImageCaptureChallenge-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD32DBF61EB3CBC600711A6C /* Debug */,
+				CD32DBF71EB3CBC600711A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD32DBBF1EB3CBC600711A6C /* Project object */;
+}

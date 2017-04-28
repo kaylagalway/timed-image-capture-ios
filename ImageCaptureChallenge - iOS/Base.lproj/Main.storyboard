@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="ImageCaptureChallenge___iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFF-N0-Pyw">
+                                <rect key="frame" x="145" y="318.5" width="85" height="30"/>
+                                <state key="normal" title="Take Photos"/>
+                                <connections>
+                                    <action selector="takePhotosButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NKX-1l-I2v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mFF-N0-Pyw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GLp-kB-CFh"/>
+                            <constraint firstItem="mFF-N0-Pyw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HCY-OC-dql"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="wSP-jY-ggF">
+            <objects>
+                <viewController storyboardIdentifier="cameraVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fT0-R9-gVf" customClass="CameraViewController" customModule="ImageCaptureChallenge___iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="arG-gy-mWT"/>
+                        <viewControllerLayoutGuide type="bottom" id="e94-Fi-XAO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MfA-9q-evv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Um-Xp-vd1" userLabel="CameraView">
+                                <rect key="frame" x="0.0" y="83.5" width="375" height="500"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0W-Lo-feL" userLabel="PhotoCountLabel">
+                                <rect key="frame" x="187" y="83.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please remain still until all ten photos have been taken" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZ0-pJ-gF6" userLabel="RemainStillLabel">
+                                <rect key="frame" x="46.5" y="583.5" width="281" height="83.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iZ0-pJ-gF6" firstAttribute="centerX" secondItem="MfA-9q-evv" secondAttribute="centerX" id="13F-c7-8nZ"/>
+                            <constraint firstItem="iZ0-pJ-gF6" firstAttribute="width" secondItem="MfA-9q-evv" secondAttribute="width" multiplier="0.75" id="5YV-Ou-Lu3"/>
+                            <constraint firstItem="4Um-Xp-vd1" firstAttribute="height" secondItem="MfA-9q-evv" secondAttribute="height" multiplier="0.75" id="Axz-i6-AN9"/>
+                            <constraint firstItem="n0W-Lo-feL" firstAttribute="bottom" secondItem="4Um-Xp-vd1" secondAttribute="top" id="CuO-uM-Luj"/>
+                            <constraint firstItem="iZ0-pJ-gF6" firstAttribute="top" secondItem="4Um-Xp-vd1" secondAttribute="bottom" id="LiC-pJ-Izj"/>
+                            <constraint firstItem="n0W-Lo-feL" firstAttribute="centerX" secondItem="MfA-9q-evv" secondAttribute="centerX" id="OUR-N4-fNY"/>
+                            <constraint firstItem="4Um-Xp-vd1" firstAttribute="centerY" secondItem="MfA-9q-evv" secondAttribute="centerY" id="RXC-vw-KDo"/>
+                            <constraint firstItem="4Um-Xp-vd1" firstAttribute="width" secondItem="MfA-9q-evv" secondAttribute="width" id="ZDI-vZ-tCp"/>
+                            <constraint firstItem="4Um-Xp-vd1" firstAttribute="centerX" secondItem="MfA-9q-evv" secondAttribute="centerX" id="ee6-Jy-A9u"/>
+                            <constraint firstItem="iZ0-pJ-gF6" firstAttribute="bottom" secondItem="e94-Fi-XAO" secondAttribute="top" id="psQ-Xi-rS0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraPreviewView" destination="4Um-Xp-vd1" id="ECQ-0a-P60"/>
+                        <outlet property="photoCountLabel" destination="n0W-Lo-feL" id="r2H-IM-Kbq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N0o-PG-vsW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="991" y="98"/>
+        </scene>
+    </scenes>
+</document>
